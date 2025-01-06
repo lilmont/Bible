@@ -149,3 +149,6 @@ class Program
 5. **Performance-Critical Scenarios**:
    - In high-performance scenarios, introducing extra layers of indirection and additional objects for each state may have an overhead that isn’t justified.
    - The added complexity can lead to more frequent memory allocations and slower performance due to context and state-switching logic.
+  
+   For a real-world example of the State Design Pattern, you can refer to this [repository](https://github.com/lilmont/StateDesignPattern), which demonstrates the implementation of this pattern in a software project.
+
